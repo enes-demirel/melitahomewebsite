@@ -1,0 +1,41 @@
+[
+  {
+    "id": "porselen-yemek-takimi-24-parca",
+    "title": "Porselen Yemek Takımı (24 Parça)",
+    "category": "zuccaciye",
+    "price": 2490,
+    "shortDesc": "Günlük kullanım ve misafir sofraları için modern, dengeli bir set.",
+    "desc": "Porselen yemek takımı; dayanıklı yapısı ve sade çizgileriyle hem günlük hem özel günlerde kullanıma uygundur. Modern sofra düzeni için ideal bir seçenektir.",
+    "images": [
+      "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "alt": "24 parça porselen yemek takımı",
+    "isFeatured": true
+  },
+  {
+    "id": "pamuk-saten-nevresim-takimi",
+    "title": "Pamuk Saten Nevresim Takımı",
+    "category": "ev-tekstili",
+    "price": 1790,
+    "shortDesc": "Yumuşak dokulu pamuk saten kumaş ile konforlu uyku deneyimi.",
+    "desc": "Pamuk saten nevresim takımı; nefes alan dokusu ve pürüzsüz hissiyle dört mevsim kullanım için uygundur. Minimal renk seçenekleriyle yatak odasında sade bir görünüm sağlar.",
+    "images": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "alt": "Pamuk saten nevresim takımı",
+    "isFeatured": true
+  },
+  {
+    "id": "minimal-dekoratif-vazo",
+    "title": "Minimal Dekoratif Vazo",
+    "category": "dekorasyon",
+    "price": 690,
+    "shortDesc": "Salon ve antre için modern çizgiler; abartısız, güçlü bir detay.",
+    "desc": "Minimal dekoratif vazo; tek başına veya kuru çiçeklerle kullanıldığında mekâna modern bir karakter kazandırır. Salon, antre ve ofis dekorasyonu için uyumludur.",
+    "images": [
+      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "alt": "Minimal dekoratif vazo",
+    "isFeatured": true
+  }
+]
