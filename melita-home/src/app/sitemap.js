@@ -1,5 +1,3 @@
-import products from "@/data/products.json";
-
 const siteUrl = "https://melitahome.com";
 
 export default function sitemap() {
@@ -38,12 +36,5 @@ export default function sitemap() {
     },
   ];
 
-  const productPages = products.map((product) => ({
-    url: `${siteUrl}/urun/${product.id}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.75,
-  }));
-
-  return [...staticPages, ...productPages];
+  return staticPages;
 }
