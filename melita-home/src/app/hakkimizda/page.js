@@ -3,9 +3,12 @@ import { buildBreadcrumbJsonLd } from "@/lib/seo";
 import styles from "../corporate.module.css";
 
 export const metadata = {
-  title: "Hakkımızda | Konya Züccaciye ve Ev Ürünleri Mağazası",
+title: "Hakkımızda | Konya Züccaciye ve Ev Ürünleri Mağazası",
   description:
     "Melita Home, Konya Selçuklu’da züccaciye, çeyizlik ürünler, ev tekstili, küçük ev aletleri ve dekoratif ev ürünleri sunan yerel mağazadır.",
+    alternates: {
+  canonical: "/hakkimizda",
+},
 };
 
 const breadcrumbLd = buildBreadcrumbJsonLd([

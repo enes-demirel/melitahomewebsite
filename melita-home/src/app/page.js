@@ -8,6 +8,9 @@ export const metadata = {
   title: "Konya Züccaciye, Çeyizlik ve Ev Ürünleri | Melita Home",
   description:
     "Melita Home, Konya Selçuklu’da züccaciye, çeyizlik ürünler, ev tekstili, nevresim, pike, yorgan, tabak takımları, çatal bıçak setleri, küçük ev aletleri ve dekoratif ev ürünleri sunan yerel mağazadır.",
+    alternates: {
+  canonical: "/",
+},
   keywords: [
     "Konya züccaciye",
     "Selçuklu züccaciye",

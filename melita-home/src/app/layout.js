@@ -30,9 +30,7 @@ export const metadata = {
     "çeyizlik ürünler Konya",
     "Melita Home",
   ],
-  alternates: {
-    canonical: "/",
-  },
+  
   openGraph: {
     type: "website",
     locale: "tr_TR",

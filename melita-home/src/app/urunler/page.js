@@ -4,9 +4,12 @@ import products from "@/data/products.json";
 import styles from "./urunler.module.css";
 
 export const metadata = {
-  title: "Konya Züccaciye ve Ev Ürünleri | Melita Home Ürünler",
+  title: "Konya Züccaciye ve Ev Ürünleri",
   description:
     "Melita Home ürünleri: Konya Selçuklu’da züccaciye, çeyizlik ürünler, ev tekstili, dekorasyon, nevresim, pike, yorgan, tabak takımları, çatal bıçak setleri ve küçük ev aletleri.",
+    alternates: {
+  canonical: "/urunler",
+},
 };
 
 const categories = [

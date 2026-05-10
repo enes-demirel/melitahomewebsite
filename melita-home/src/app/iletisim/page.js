@@ -2,9 +2,12 @@ import { buildBreadcrumbJsonLd, buildLocalBusinessJsonLd } from "@/lib/seo";
 import styles from "../corporate.module.css";
 
 export const metadata = {
-  title: "İletişim | Melita Home Konya Selçuklu",
+title: "İletişim | Melita Home Konya Selçuklu",
   description:
     "Melita Home iletişim bilgileri: Kosova, Seher Sk. No:3/A, 42250 Selçuklu/Konya. Telefon: +90 554 194 04 33. Çalışma saatleri: 09:00 - 19:00.",
+    alternates: {
+  canonical: "/iletisim",
+},
 };
 
 const breadcrumbLd = buildBreadcrumbJsonLd([

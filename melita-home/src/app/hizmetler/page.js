@@ -3,9 +3,12 @@ import { buildBreadcrumbJsonLd } from "@/lib/seo";
 import styles from "../corporate.module.css";
 
 export const metadata = {
-  title: "Ürün Grupları ve Mağaza Hizmetleri | Melita Home",
+title: "Ürün Grupları ve Mağaza Hizmetleri",
   description:
     "Melita Home’da züccaciye, çeyizlik ürünler, ev tekstili, dekorasyon, küçük ev aletleri ve mağaza içi ürün desteği hakkında bilgi alın.",
+    alternates: {
+  canonical: "/hizmetler",
+},
 };
 
 const breadcrumbLd = buildBreadcrumbJsonLd([
