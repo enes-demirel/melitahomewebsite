@@ -90,7 +90,7 @@ export default function Footer() {
               Kosova, Seher Sk. No:3/A, Selçuklu / Konya
             </a>
 
-            <span>Her gün 10:00 - 19:00</span>
+            <span>Her gün 08.30 - 20.00</span>
           </div>
 
           <a className={styles.callButton} href="tel:+905454250975">
