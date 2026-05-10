@@ -4,7 +4,7 @@ import styles from "../corporate.module.css";
 export const metadata = {
 title: "İletişim | Melita Home Konya Selçuklu",
   description:
-    "Melita Home iletişim bilgileri: Kosova, Seher Sk. No:3/A, 42250 Selçuklu/Konya. Telefon: +90 545 425 09 75. Çalışma saatleri: 09:00 - 19:00.",
+    "Melita Home iletişim bilgileri: Kosova, Seher Sk. No:3/A, 42250 Selçuklu/Konya. Telefon: +90 545 425 09 75. Çalışma saatleri: 10:00 - 19:00.",
     alternates: {
   canonical: "/iletisim",
 },
@@ -65,7 +65,7 @@ export default function Page() {
             </div>
 
             <div className={styles.heroCard}>
-              <strong>Her gün 09:00 - 19:00 saatleri arasında ulaşabilirsiniz.</strong>
+              <strong>Her gün 10:00 - 19:00 saatleri arasında ulaşabilirsiniz.</strong>
               <span>
                 Kosova Mahallesi, Seher Sokak üzerindeki Melita Home mağazasını ziyaret
                 edebilirsiniz.
@@ -109,7 +109,7 @@ export default function Page() {
 
                 <div className={styles.contactItem}>
                   <span>Çalışma saatleri</span>
-                  <strong>Her gün 09:00 - 19:00</strong>
+                  <strong>Her gün 10:00 - 19:00</strong>
                 </div>
               </div>
             </div>

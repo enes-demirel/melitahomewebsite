@@ -32,7 +32,7 @@ export default function Header() {
             <a href="https://www.instagram.com/melitahomee/" target="_blank" rel="noreferrer">
               Instagram
             </a>
-            <span>09:00 - 19:00</span>
+            <span>10:00 - 19:00</span>
           </div>
         </div>
       </div>

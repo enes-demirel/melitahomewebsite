@@ -111,7 +111,7 @@ export default function Page() {
                   <span>Yerel mağaza</span>
                 </div>
                 <div>
-                  <strong>09:00 - 19:00</strong>
+                  <strong>10:00 - 19:00</strong>
                   <span>Çalışma saatleri</span>
                 </div>
                 <div>
