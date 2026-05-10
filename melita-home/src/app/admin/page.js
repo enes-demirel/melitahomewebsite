@@ -1,18 +1,13 @@
-export const metadata = { title: "Admin" };
+import { notFound } from "next/navigation";
 
-export default function Page(){
-  return (
-    <main className="section">
-      <div className="container">
-        <div className="card" style={{ padding: 18 }}>
-          <div className="badge">Admin Panel</div>
-          <h1 className="h1" style={{ marginTop: 12 }}>Ürün Yönetimi</h1>
-          <p className="p">
-            Bir sonraki adımda buraya tek şifreli giriş + ürün ekleme ekranını kuracağız.
-            Eklenen ürünler otomatik SEO meta + schema + sitemap ile yayınlanacak.
-          </p>
-        </div>
-      </div>
-    </main>
-  );
+export const metadata = {
+  title: "Sayfa bulunamadı",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
+export default function Page() {
+  notFound();
 }

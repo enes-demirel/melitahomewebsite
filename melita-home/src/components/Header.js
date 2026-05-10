@@ -41,7 +41,7 @@ export default function Header() {
         <Link href="/" className={styles.brand} aria-label="Melita Home ana sayfa">
           <span className={styles.logoFrame}>
             <Image
-              src="/melita-logo.png"
+              src="/melitahome-logo-v3.png"
               alt="Melita Home"
               width={190}
               height={62}

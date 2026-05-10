@@ -26,7 +26,7 @@ export default function Footer() {
         <div className={styles.brandCol}>
           <Link href="/" className={styles.logoLink} aria-label="Melita Home ana sayfa">
             <Image
-              src="/melita-logo.png"
+              src="/melitahome-logo-v3.png"
               alt="Melita Home"
               width={210}
               height={70}
