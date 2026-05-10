@@ -39,20 +39,24 @@ export async function generateMetadata({ params }) {
   }
 
   return {
+  title: `${product.title} | Melita Home`,
+  description:
+    product.shortDesc ||
+    `${product.title} hakkında bilgi almak için Konya Selçuklu’daki Melita Home mağazasıyla iletişime geçin.`,
+  robots: {
+    index: false,
+    follow: true,
+  },
+  alternates: {
+    canonical: `/urun/${product.id}`,
+  },
+  openGraph: {
     title: `${product.title} | Melita Home`,
-    description:
-      product.shortDesc ||
-      `${product.title} hakkında bilgi almak için Konya Selçuklu’daki Melita Home mağazasıyla iletişime geçin.`,
-    alternates: {
-      canonical: `/urun/${product.id}`,
-    },
-    openGraph: {
-      title: `${product.title} | Melita Home`,
-      description: product.shortDesc,
-      images: product.images?.length ? product.images : [],
-      type: "website",
-    },
-  };
+    description: product.shortDesc,
+    images: product.images?.length ? product.images : [],
+    type: "website",
+  },
+};
 }
 
 export default async function ProductDetail({ params }) {
