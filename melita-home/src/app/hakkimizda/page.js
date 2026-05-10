@@ -142,7 +142,7 @@ export default function Page() {
               </p>
             </div>
 
-            <a href="tel:+905541940433" className={styles.primaryButton}>
+            <a href="tel:+905454250975" className={styles.primaryButton}>
               Bizi Arayın
             </a>
           </div>

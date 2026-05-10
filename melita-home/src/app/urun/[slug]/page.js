@@ -144,7 +144,7 @@ export default async function ProductDetail({ params }) {
               </div>
 
               <div className={styles.actions}>
-                <a className={styles.primaryButton} href="tel:+905541940433">
+                <a className={styles.primaryButton} href="tel:+905454250975">
                   Bizi Arayın
                 </a>
 
@@ -171,7 +171,7 @@ export default async function ProductDetail({ params }) {
 
                 <div>
                   <span>İletişim</span>
-                  <strong>+90 554 194 04 33</strong>
+                  <strong>+90 545 425 09 75</strong>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export default async function ProductDetail({ params }) {
               </p>
             </div>
 
-            <a className={styles.primaryButton} href="tel:+905541940433">
+            <a className={styles.primaryButton} href="tel:+905454250975">
               Bizi Arayın
             </a>
           </div>

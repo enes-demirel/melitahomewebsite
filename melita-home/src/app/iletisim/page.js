@@ -4,7 +4,7 @@ import styles from "../corporate.module.css";
 export const metadata = {
 title: "İletişim | Melita Home Konya Selçuklu",
   description:
-    "Melita Home iletişim bilgileri: Kosova, Seher Sk. No:3/A, 42250 Selçuklu/Konya. Telefon: +90 554 194 04 33. Çalışma saatleri: 09:00 - 19:00.",
+    "Melita Home iletişim bilgileri: Kosova, Seher Sk. No:3/A, 42250 Selçuklu/Konya. Telefon: +90 545 425 09 75. Çalışma saatleri: 09:00 - 19:00.",
     alternates: {
   canonical: "/iletisim",
 },
@@ -18,7 +18,7 @@ const breadcrumbLd = buildBreadcrumbJsonLd([
 const localBusinessLd = buildLocalBusinessJsonLd({
   name: "Melita Home",
   address: "Kosova, Seher Sk. No:3/A, 42250 Selçuklu / Konya",
-  telephone: "+90 554 194 04 33",
+  telephone: "+90 545 425 09 75",
   sameAs: ["https://www.instagram.com/melitahomee/"],
 });
 
@@ -50,7 +50,7 @@ export default function Page() {
               </p>
 
               <div className={styles.actions}>
-                <a href="tel:+905541940433" className={styles.primaryButton}>
+                <a href="tel:+905454250975" className={styles.primaryButton}>
                   Bizi Arayın
                 </a>
                 <a
@@ -82,9 +82,9 @@ export default function Page() {
               <span className={styles.eyebrow}>Mağaza bilgileri</span>
 
               <div className={styles.contactList}>
-                <a href="tel:+905541940433" className={styles.contactItem}>
+                <a href="tel:+905454250975" className={styles.contactItem}>
                   <span>Telefon</span>
-                  <strong>+90 554 194 04 33</strong>
+                  <strong>+90 545 425 09 75</strong>
                 </a>
 
                 <a

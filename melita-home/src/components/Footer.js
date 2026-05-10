@@ -72,7 +72,7 @@ export default function Footer() {
           <h2 className={styles.title}>İletişim</h2>
 
           <div className={styles.contactList}>
-            <a href="tel:+905541940433">+90 554 194 04 33</a>
+            <a href="tel:+905454250975">+90 545 425 09 75</a>
 
             <a
               href="https://www.instagram.com/melitahomee/"
@@ -93,7 +93,7 @@ export default function Footer() {
             <span>Her gün 09:00 - 19:00</span>
           </div>
 
-          <a className={styles.callButton} href="tel:+905541940433">
+          <a className={styles.callButton} href="tel:+905454250975">
             Bizi Arayın
           </a>
         </div>

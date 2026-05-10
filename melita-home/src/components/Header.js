@@ -14,7 +14,7 @@ const nav = [
   { href: "/iletisim", label: "İletişim" },
 ];
 
-const phoneHref = "tel:+905541940433";
+const phoneHref = "tel:+905454250975";
 
 export default function Header() {
   const pathname = usePathname();

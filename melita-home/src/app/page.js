@@ -59,7 +59,7 @@ const productTypes = [
 const localBusinessJsonLd = buildLocalBusinessJsonLd({
   name: "Melita Home",
   address: "Kosova, Seher Sk. No:3/A, 42250 Selçuklu / Konya",
-  telephone: "+90 554 194 04 33",
+  telephone: "+90 545 425 09 75",
   sameAs: ["https://www.instagram.com/melitahomee/"],
 });
 
@@ -96,7 +96,7 @@ export default function Page() {
               </p>
 
               <div className={styles.heroActions}>
-                <a className={styles.primaryButton} href="tel:+905541940433">
+                <a className={styles.primaryButton} href="tel:+905454250975">
                   Bizi Arayın
                 </a>
 
@@ -199,7 +199,7 @@ export default function Page() {
               </p>
 
               <div className={styles.bridalActions}>
-                <a href="tel:+905541940433" className={styles.primaryButton}>
+                <a href="tel:+905454250975" className={styles.primaryButton}>
                   Çeyizlik Ürünler İçin Arayın
                 </a>
 
@@ -261,9 +261,9 @@ export default function Page() {
             </div>
 
             <div className={styles.contactCards}>
-              <a href="tel:+905541940433" className={styles.contactCard}>
+              <a href="tel:+905454250975" className={styles.contactCard}>
                 <span>Telefon</span>
-                <strong>+90 554 194 04 33</strong>
+                <strong>+90 545 425 09 75</strong>
               </a>
 
               <a
