@@ -1,7 +1,7 @@
 export function buildLocalBusinessJsonLd({ name, address, telephone, sameAs }) {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "HomeGoodsStore",
     name,
     address: {
       "@type": "PostalAddress",
@@ -16,33 +16,49 @@ export function buildLocalBusinessJsonLd({ name, address, telephone, sameAs }) {
   };
 }
 
-export function buildProductJsonLd({ name, description, images, price, currency = "TRY", brand = "Melita Home" }) {
-  return {
+export function buildProductJsonLd({
+  name,
+  description,
+  images,
+  price,
+  currency = "TRY",
+  brand = "Melita Home",
+  url,
+}) {
+  const numericPrice = Number(price);
+  const hasPrice = Number.isFinite(numericPrice) && numericPrice > 0;
+
+  const product = {
     "@context": "https://schema.org",
     "@type": "Product",
     name,
     description,
     image: images,
     brand: { "@type": "Brand", name: brand },
-    offers: {
+  };
+
+  if (hasPrice) {
+    product.offers = {
       "@type": "Offer",
       priceCurrency: currency,
-      price: String(price),
+      price: String(numericPrice),
       availability: "https://schema.org/InStock",
-      url: undefined,
-    },
-  };
+      url,
+    };
+  }
+
+  return product;
 }
 
 export function buildBreadcrumbJsonLd(items) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((it, idx) => ({
+    itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
-      position: idx + 1,
-      name: it.name,
-      item: it.item,
+      position: index + 1,
+      name: item.name,
+      item: item.item,
     })),
   };
 }
